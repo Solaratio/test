@@ -21,7 +21,7 @@
 ### 📊 GitHub Stats & Trophy
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=79c0ff" alt="Abel's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=79c0ff" alt="Prima's GitHub Stats" />
 </p>
 
 <p align="center">
