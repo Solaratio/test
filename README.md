@@ -1,7 +1,7 @@
 <h1 align="center">👋 Halo, Saya Prima!</h1>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,4,6,8,10&height=180&section=header&text=RYAN%20YAZZID%20KHAIVAN%20MARIBERTEMAN&fontSize=32&fontColor=ffffff&animation=fadeIn&fontAlignY=38" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,4,6,8,10&height=180&section=header&text=RYAN%20YAZZID%20KHAIVAN%20KEBERSAMAAN&fontSize=32&fontColor=ffffff&animation=fadeIn&fontAlignY=38" width="100%" />
 </p>
 
 <p align="center">
