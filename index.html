@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;700&display=swap" rel="stylesheet">
   <style>
-    /* Tema Persona 4 Golden: kuning cerah, lingkaran retro, ubin ikon bergaris, serpihan retak */
+
     :root {
       --yellow: #ffe500;
       --red: #e8112d;
@@ -52,10 +52,10 @@
     :focus-visible { outline: 3px solid var(--red); outline-offset: 3px; }
     .wrap { max-width: 920px; margin: 0 auto; padding: 0 24px; }
 
-    /* Dekorasi latar: lingkaran retro, bunga, pita pelangi, kilau */
+    
     .deco { position: fixed; inset: 0; width: 100%; height: 100%; z-index: -1; opacity: var(--deco); pointer-events: none; }
 
-    /* Navigasi */
+    
     header.nav { position: sticky; top: 0; z-index: 10; background: var(--tag-bg); border-bottom: 5px solid var(--red); }
     .nav .wrap { display: flex; justify-content: space-between; align-items: center; min-height: 58px; gap: 12px; flex-wrap: wrap; }
     .nav strong { font-family: "Anton", Impact, sans-serif; font-weight: 400; color: var(--tag-text); font-size: 1.4rem; letter-spacing: .04em; font-style: italic; }
@@ -67,7 +67,7 @@
     }
     .nav a:hover, .nav a:focus-visible { background: var(--red); color: #fff; }
 
-    /* Hero */
+    
     .hero { padding: 64px 0 34px; }
     .hero .wrap { display: grid; grid-template-columns: 250px 1fr; gap: 64px; align-items: center; }
     .frame { position: relative; width: 250px; height: 250px; transform: rotate(-4deg); isolation: isolate; }
@@ -91,7 +91,7 @@
     }
     .kilau-hero { position: absolute; width: 56px; height: 56px; top: -34px; right: -34px; }
 
-    /* Nama bergaya logo: isi putih, garis tebal hitam, bayangan merah */
+    
     .nama {
       font-family: "Anton", Impact, sans-serif; font-weight: 400; text-transform: uppercase;
       font-size: clamp(2.3rem, 7vw, 4.3rem); line-height: 1.05; letter-spacing: .03em;
@@ -106,7 +106,7 @@
       border: 3px solid var(--edge); padding: 4px 18px; font-weight: 700; transform: skewX(-10deg);
     }
 
-    /* Kartu: panel putih miring dengan serpihan retak di belakangnya */
+    
     section { padding: 30px 0; }
     .kartu { position: relative; isolation: isolate; padding: 34px 40px 30px; }
     .kartu::before, .kartu::after { content: ""; position: absolute; transform: skewX(-4deg); }
@@ -130,7 +130,6 @@
     .identitas dt { color: var(--muted); font-weight: 500; }
     .identitas dd { font-weight: 700; }
 
-    /* Ubin ikon seperti layar aplikasi di referensi */
     .ikon {
       display: grid; place-items: center; flex: none; width: 84px; height: 84px; border-radius: 22px;
       background: repeating-linear-gradient(115deg, #ffe94d 0 12px, #ffc400 12px 24px);
@@ -147,7 +146,6 @@
     .kontak .ikon svg { width: 32px; height: 32px; }
     .plat { display: block; font-family: "Anton", Impact, sans-serif; letter-spacing: .05em; text-transform: uppercase; font-size: 1.15rem; line-height: 1.3; }
 
-    /* Pertanyaan dan jawaban */
     .catatan { color: var(--muted); font-weight: 500; margin-bottom: 18px; }
     .tanya { display: grid; gap: 16px; counter-reset: soal; }
     .tanya summary {
@@ -245,10 +243,8 @@
   </header>
 
   <main>
-    <!-- Nama & foto profil -->
     <div class="hero">
       <div class="wrap">
-        <!-- Foto Insert-->
         <div class="frame">
           <img class="foto" src="Sunraku.jpg" alt="Foto profil Primandhika Asmandharu Yuwono"
                onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 220 220%27%3E%3Crect width=%27220%27 height=%27220%27 fill=%27%23ffd800%27/%3E%3Ccircle cx=%27110%27 cy=%2788%27 r=%2738%27 fill=%27%23111%27/%3E%3Cpath d=%27M36 200c6-44 40-66 74-66s68 22 74 66z%27 fill=%27%23111%27/%3E%3C/svg%3E'">
@@ -265,7 +261,6 @@
       </div>
     </div>
 
-    <!-- Nama dan identitas mahasiswa -->
     <section id="identitas">
       <div class="wrap">
         <div class="kartu">
@@ -281,7 +276,6 @@
       </div>
     </section>
 
-    <!-- Deskripsi singkat -->
     <section id="tentang">
       <div class="wrap">
         <div class="kartu">
